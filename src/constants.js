@@ -9,6 +9,9 @@ import nextjsLogo from "./assets/tech_logo/nextjs.png";
 import tailwindcssLogo from "./assets/tech_logo/tailwindcss.png";
 import materialuiLogo from "./assets/tech_logo/materialui.png";
 import bootstrapLogo from "./assets/tech_logo/bootstrap.png";
+import flutterLogo from "./assets/tech_logo/flutter.png";
+import dartLogo from "./assets/tech_logo/dart.jpeg";
+import responsiveLogo from "./assets/tech_logo/responsive.png";
 import nodejsLogo from "./assets/tech_logo/nodejs.png";
 import expressjsLogo from "./assets/tech_logo/express.png";
 import mysqlLogo from "./assets/tech_logo/mysql.png";
@@ -52,7 +55,16 @@ export const SkillsInfo = [
       { name: "Tailwind CSS", logo: tailwindcssLogo },
       { name: "Material UI", logo: materialuiLogo },
       { name: "Bootstrap", logo: bootstrapLogo },
+
     ],
+  },
+  {
+    title: "Mobile Developer",
+    skills: [
+       { name: "Dart", logo: dartLogo },
+     { name: "Flutter", logo: flutterLogo },
+     {name: "Responsive Design", logo: responsiveLogo}
+    ]
   },
   {
     title: "Backend",
