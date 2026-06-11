@@ -111,7 +111,7 @@ export const experiences = [
     img: iguruLogo,
     role: "Fullstack Developer",
     company: "Iguru Limited",
-    date: "April 2025 - September 2025",
+    date: "April 2025 - present",
     desc: "Developed dynamic and scalable web applications, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
     skills: [
       "HTML",
