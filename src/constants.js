@@ -29,17 +29,18 @@ import netlifyLogo from "./assets/tech_logo/netlify.png";
 import vercelLogo from "./assets/tech_logo/vercel.png";
 import adobephotoshoplogo from "./assets/tech_logo/adobe-photoshop-icon.png";
 import canvalogo from "./assets/tech_logo/canva-icon.png";
+import phpLogo from "./assets/tech_logo/php.jpeg";
+import symfonyLogo from "./assets/tech_logo/symfony.png";
+import constructLogo from "./assets/tech_logo/construct.png";
 
 // Experience Section Logo's
 import iguruLogo from "./assets/company_logo/iguru.jpeg";
 
 // Project Section Logo's
-import tmsLogo from "./assets/work_logo/tms.png";
-import CGPALogo from "./assets/work_logo/Cgpa_Calculator.png";
-import BuetPortalLogo from "./assets/work_logo/buet_portal.png";
 import website from "./assets/website.png"
 import smarted from "./assets/smarted.png"
 import issueTracker from "./assets/issueTracker.png"
+import afyaBridge from "./assets/afyabridge.jpeg"
 
 export const SkillsInfo = [
   {
@@ -55,6 +56,7 @@ export const SkillsInfo = [
       { name: "Tailwind CSS", logo: tailwindcssLogo },
       { name: "Material UI", logo: materialuiLogo },
       { name: "Bootstrap", logo: bootstrapLogo },
+      { name: "Construct", logo: constructLogo },
 
     ],
   },
@@ -71,8 +73,7 @@ export const SkillsInfo = [
     skills: [
       { name: "Node JS", logo: nodejsLogo },
       { name: "Express JS", logo: expressjsLogo },
-      { name: "Symfony", logo: mysqlLogo },
-      { name: "Construct", logo: mysqlLogo },
+      { name: "Symfony", logo: symfonyLogo },
       { name: "MySQL", logo: mysqlLogo },
       { name: "MongoDB", logo: mongodbLogo },
       { name: "Firebase", logo: firebaseLogo },
@@ -82,7 +83,7 @@ export const SkillsInfo = [
     title: "Languages",
     skills: [
       { name: "Python", logo: pythonLogo },
-      { name: "PHP", logo: mysqlLogo },
+      { name: "PHP", logo: phpLogo },
       { name: "JavaScript", logo: javascriptLogo },
       { name: "TypeScript", logo: typescriptLogo },
     ],
@@ -193,6 +194,28 @@ export const projects = [
       "Git",
     ],
     github: "https://github.com/Peterodero/SmartEdSystem/",
+  },
+   {
+    id: 4,
+    title: "Afya Bridge System",
+    description:
+      "A healthcare connectivity system bridging patients, healthcare providers, and resources for seamless communication and improved healthcare delivery. This platform facilitates efficient appointment scheduling, secure messaging, and access to medical records, enhancing patient care and provider collaboration.",
+    image: afyaBridge,
+    tags: [
+      "React",
+      "Tailwind CSS",
+      "JavaScript",
+      "MySQL",
+      "Express",
+      "bcryptjs",
+      "Node.js",
+      "JWT",
+      "Go",
+      "Sequelize",
+      "CORS",
+      "Git",
+    ],
+    github: "https://github.com/Peterodero/AfyaBridgePatientBackend/",
   },
   // {
   //   id: 4,
