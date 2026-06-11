@@ -189,7 +189,7 @@ export const projects = [
       "Node.js",
       "JWT",
       "PDFMake",
-      "Mongoos",
+      "Mongoose",
       "CORS",
       "Git",
     ],
