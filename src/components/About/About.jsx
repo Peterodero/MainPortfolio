@@ -2,6 +2,7 @@ import { useRef } from "react";
 import ReactTypingEffect from "react-typing-effect";
 import Tilt from "react-parallax-tilt";
 import profileImage from "../../assets/profile.jpg";
+import resumeFile from "../../assets/Resume.pdf";
 
 const About = () => {
   // Create a ref for the hidden anchor tag
@@ -22,7 +23,7 @@ const About = () => {
       {/* Hidden download link */}
       <a 
         ref={downloadRef} 
-        href="../../assets/Resume.pdf" 
+        href={resumeFile}
         download="Resume.pdf"
         className="hidden"
       >
