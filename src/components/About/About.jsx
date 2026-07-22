@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
 import ReactTypingEffect from "react-typing-effect";
 import Tilt from "react-parallax-tilt";
 import profileImage from "../../assets/profile.jpg";
@@ -61,10 +61,8 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            I am a results-driven full-stack developer with over three years of
-            experience in building scalable and user-centric web applications.
-            My expertise lies in both front-end and back-end development,
-            specializing in the MERN stack (MongoDB, Express, React, Node.js). I
+            I am a results-driven full-stack developer with experience in building scalable and user-centric web applications.
+            My expertise lies in both front-end and back-end development.I
             excel at leveraging modern technologies to create seamless,
             high-performance solutions that solve real-world problems. My
             hands-on experience and continuous learning mindset have equipped me
