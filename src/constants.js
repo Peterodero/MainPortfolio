@@ -18,6 +18,7 @@ import mysqlLogo from "./assets/tech_logo/mysql.png";
 import mongodbLogo from "./assets/tech_logo/mongodb.png";
 import firebaseLogo from "./assets/tech_logo/firebase.png";
 import pythonLogo from "./assets/tech_logo/python.png";
+import javaLogo from "./assets/tech_logo/java.png"
 import typescriptLogo from "./assets/tech_logo/typescript.png";
 import gitLogo from "./assets/tech_logo/git.png";
 import githubLogo from "./assets/tech_logo/github.png";
@@ -32,6 +33,8 @@ import canvalogo from "./assets/tech_logo/canva-icon.png";
 import phpLogo from "./assets/tech_logo/php.jpeg";
 import symfonyLogo from "./assets/tech_logo/symfony.png";
 import constructLogo from "./assets/tech_logo/construct.png";
+import springLogo from "./assets/tech_logo/springboot.png"
+import angularLogo from "./assets/tech_logo/angular.png"
 
 // Experience Section Logo's
 import iguruLogo from "./assets/company_logo/iguru.jpeg";
@@ -51,6 +54,7 @@ export const SkillsInfo = [
       { name: "SASS", logo: sassLogo },
       { name: "JavaScript", logo: javascriptLogo },
       { name: "React JS", logo: reactjsLogo },
+      { name: "Angular", logo: angularLogo },
       { name: "Redux", logo: reduxLogo },
       { name: "Next JS", logo: nextjsLogo },
       { name: "Tailwind CSS", logo: tailwindcssLogo },
@@ -77,6 +81,7 @@ export const SkillsInfo = [
       { name: "MySQL", logo: mysqlLogo },
       { name: "MongoDB", logo: mongodbLogo },
       { name: "Firebase", logo: firebaseLogo },
+      { name: "SpringBoot", logo: springLogo },
     ],
   },
   {
@@ -86,6 +91,7 @@ export const SkillsInfo = [
       { name: "PHP", logo: phpLogo },
       { name: "JavaScript", logo: javascriptLogo },
       { name: "TypeScript", logo: typescriptLogo },
+      { name: "Java", logo: javaLogo },
     ],
   },
   {
@@ -131,8 +137,8 @@ export const education = [
     id: 0,
     school: "Masinde Muliro University of Science and Technology",
     date: "Dec 2022 - Dec 2026",
-    grade: "3.5 CGPA (in process)",
-    desc: "Currently pursuing a Bachelor of Computer Science. This program has provided me with a robust foundation in software development principles and practices, including **Data Structures, Algorithms, Object-Oriented Programming, and Database Management Systems**. I am gaining practical experience in designing and developing software solutions while honing my skills in various programming languages and modern software development methodologies.",
+    grade: "3.5 CGPA",
+    desc: " Pursued Bachelor of Computer Science. This program has provided me with a robust foundation in software development principles and practices, including **Data Structures, Algorithms, Object-Oriented Programming, and Database Management Systems**. I am gaining practical experience in designing and developing software solutions while honing my skills in various programming languages and modern software development methodologies.",
     degree: "Bachelor of Computer Science",
   },
   {
