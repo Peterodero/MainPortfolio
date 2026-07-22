@@ -23,7 +23,7 @@ const About = () => {
       <a 
         ref={downloadRef} 
         href="../../assets/Resume.pdf" 
-        download="Peter_Odero_Resume.pdf"
+        download="Resume.pdf"
         className="hidden"
       >
         Download Resume
