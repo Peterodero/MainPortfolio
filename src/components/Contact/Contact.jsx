@@ -5,22 +5,27 @@ import "react-toastify/dist/ReactToastify.css";
 
 const Contact = () => {
   const form = useRef();
-  const [isSent, setIsSent] = useState(false);
+  const [loading, setLoading] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
+    setLoading(true);
+
+    const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+    const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+    const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
     emailjs
       .sendForm(
-        "service_i7yr951",  
-        "template_cbaieqk", 
+        serviceId,  
+        templateId, 
         form.current,
-        "V1uyJIGHg2PHC4lsf"  
+        publicKey  
       )
       .then(
         () => {
-          setIsSent(true);
           form.current.reset(); // Reset form fields after sending
+          setLoading(false);
           toast.success("Message sent successfully! ", {
             position: "top-right",
             autoClose: 3000,
@@ -33,6 +38,7 @@ const Contact = () => {
         },
         (error) => {
           console.error("Error sending message:", error);
+          setLoading(false);
           toast.error("Failed to send message. Please try again.", {
             position: "top-right",
             autoClose: 3000,
@@ -102,9 +108,12 @@ const Contact = () => {
           {/* Send Button */}
           <button
             type="submit"
-            className="w-full bg-gradient-to-r from-purple-600 to-pink-500 py-3 text-white font-semibold rounded-md hover:opacity-90 transition"
+            disabled={loading}
+            className={`w-full bg-gradient-to-r from-purple-600 to-pink-500 py-3 text-white font-semibold rounded-md transition ${
+              loading ? "opacity-50 cursor-not-allowed" : "hover:opacity-90"
+            }`}
           >
-            Send
+            {loading ? "Sending..." : "Send"}
           </button>
         </form>
       </div>

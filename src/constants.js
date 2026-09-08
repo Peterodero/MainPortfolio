@@ -136,15 +136,15 @@ export const education = [
   {
     id: 0,
     school: "Masinde Muliro University of Science and Technology",
-    date: "Dec 2019 - Dec 2022",
-    grade: "3.5 CGPA",
+    date: "August 2022 - April 2025",
+    grade: "3.5 GPA",
     desc: " Pursued Bachelor of Computer Science. This program has provided me with a robust foundation in software development principles and practices, including **Data Structures, Algorithms, Object-Oriented Programming, and Database Management Systems**. I am gaining practical experience in designing and developing software solutions while honing my skills in various programming languages and modern software development methodologies.",
     degree: "Bachelor of Computer Science",
   },
   {
     id: 2,
     school: "Got Rateng' High School",
-    date: "March 2014 - July 2018",
+    date: "January 2017 - November 2021",
     grade: "A-",
     desc: "Completed my studies, achieving a strong academic foundation in various subjects. This period was crucial for developing my core knowledge and study habits.",
     degree: "Secondary Education",
@@ -152,7 +152,7 @@ export const education = [
   {
     id: 3,
     school: "Ayiengo Primary School",
-    date: "March 2002 - March 2013",
+    date: "January 2007 - November 2016",
     grade: "A-",
     desc: "Completed my primary school education, establishing a foundational understanding of core subjects. This period focused on building strong learning habits and preparing for higher academic levels",
     degree: "Primary Education",
