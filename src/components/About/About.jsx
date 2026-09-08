@@ -47,7 +47,6 @@ const About = () => {
             <ReactTypingEffect
               text={[
                 "Fullstack Developer",
-                "Mobile App Developer",
                 "Machine Learning enthusiast",
                 "Coder",
               ]}
@@ -62,16 +61,8 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            I am a results-driven full-stack developer with experience in building scalable and user-centric web applications.
-            My expertise lies in both front-end and back-end development. I
-            excel at leveraging modern technologies to create seamless,
-            high-performance solutions that solve real-world problems. My
-            hands-on experience and continuous learning mindset have equipped me
-            with a versatile skill set, including proficiency in design tools
-            as well as a strong foundation in a variety
-            of programming languages. I am dedicated to delivering efficient,
-            end-to-end solutions that are both functional and visually
-            compelling.
+            I am a Software Engineer who builds full React.js / Next.js applications alongside the APIs behind them.
+            Comfortable across the stack: React.js and Tailwind CSS on the front end, Node.js / Express and PHP (Symfony) on the back end, moving seamlessly between frontend and backend work without waiting on handoffs. Experienced in working with distributed remote teams and exploring AI-driven products.
           </p>
           {/* Resume Button */}
           <button
