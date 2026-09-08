@@ -39,7 +39,7 @@ const Work = () => {
               <img
                 src={project.image}
                 alt={project.title}
-                className="w-full h-48 object-cover rounded-xl"
+                className="w-full aspect-video object-cover rounded-xl"
               />
             </div>
             <div className="p-6">
