@@ -8,12 +8,12 @@ const About = () => {
   // Create a ref for the hidden anchor tag
   const downloadRef = useRef(null);
 
-  const handleDownload = () => {
-    // Programmatically click the hidden anchor tag to trigger download
-    if (downloadRef.current) {
-      downloadRef.current.click();
-    }
-  };
+  // const handleDownload = () => {
+  //   // Programmatically click the hidden anchor tag to trigger download
+  //   if (downloadRef.current) {
+  //     downloadRef.current.click();
+  //   }
+  // };
 
   return (
     <section
@@ -47,6 +47,7 @@ const About = () => {
             <ReactTypingEffect
               text={[
                 "Fullstack Developer",
+                "Frontend Developer",
                 "Machine Learning enthusiast",
                 "Coder",
               ]}
@@ -65,7 +66,7 @@ const About = () => {
             Comfortable across the stack: React.js and Tailwind CSS on the front end, Node.js / Express and PHP (Symfony) on the back end, moving seamlessly between frontend and backend work without waiting on handoffs. Experienced in working with distributed remote teams and exploring AI-driven products.
           </p>
           {/* Resume Button */}
-          <button
+          {/* <button
             onClick={handleDownload}
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
             style={{
@@ -74,7 +75,7 @@ const About = () => {
             }}
           >
             DOWNLOAD RESUME
-          </button>
+          </button> */}
         </div>
         {/* Right Side */}
         <div className="md:w-1/2 flex justify-center md:justify-end">

@@ -105,7 +105,7 @@ export const experiences = [
     img: iguruLogo,
     role: "Software Engineer",
     company: "Iguru Software Company",
-    date: "April 2025 - Present",
+    date: "April 2024 - Present",
     desc: "Work with frontend and mobile teams to agree on API contracts upfront so each side knows what data to expect before building starts. Build REST APIs in Node.js/Express and PHP (Symfony) for web and mobile apps across client industries. Handle database design, query tuning, and server-side business logic. Build front-end interfaces with React.js/Next.js, Tailwind CSS, and SCSS. Improved page load speed, usability, and search rankings. Built fullstack games for hackathons and presented at a UI/React conference.",
     skills: [
       "React.js",
