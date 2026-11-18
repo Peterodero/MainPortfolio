@@ -46,7 +46,7 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-300 mb-8 mt-6 leading-relaxed">
-            I am a results-oriented <span className="text-white font-semibold">Fullstack Software Engineer</span> experienced in building resilient, end-to-end web applications. On the <span className="text-purple-400 font-medium">frontend</span>, I engineer performant, responsive interfaces using <span className="text-white">React.js, Next.js, and Tailwind CSS</span>. On the <span className="text-purple-400 font-medium">backend</span>, I architect scalable RESTful APIs, robust database models, and server logic with <span className="text-white">Node.js, Express, PHP (Symfony), MySQL, and MongoDB</span>. I pride myself on bridging client-side experience with server-side architecture to deliver production-ready software.
+            I am a results-oriented <span className="text-white font-semibold">Fullstack Software Devloper</span> experienced in building resilient, end-to-end web applications. On the <span className="text-purple-400 font-medium">frontend</span>, I engineer performant, responsive interfaces using <span className="text-white">React.js, Next.js, and Tailwind CSS</span>. On the <span className="text-purple-400 font-medium">backend</span>, I architect scalable RESTful APIs, robust database models, and server logic with <span className="text-white">Node.js, Express, PHP (Symfony), MySQL, and MongoDB</span>. I pride myself on bridging client-side experience with server-side architecture to deliver production-ready software.
           </p>
 
           {/* Action Buttons */}
