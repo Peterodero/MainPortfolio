@@ -69,14 +69,14 @@ const Experience = () => {
                 </div>
               </div>
 
-              <p className="mt-4 text-gray-400">{experience.desc}</p>
+              <p className="mt-4 text-gray-300 text-sm sm:text-base leading-relaxed">{experience.desc}</p>
               <div className="mt-4">
-                <h5 className="font-medium text-white">Skills:</h5>
-                <ul className="flex flex-wrap mt-2">
+                <h5 className="font-semibold text-white text-xs uppercase tracking-wider mb-2">Core Technologies:</h5>
+                <ul className="flex flex-wrap">
                   {experience.skills.map((skill, index) => (
                     <li
                       key={index}
-                      className="bg-[#8245ec] text-gray-300 px-4 py-1 text-xs sm:text-sm rounded-lg mr-2 mb-2 border border-gray-400"
+                      className="bg-[#251f38] text-purple-300 border border-purple-800/50 px-3 py-1 text-xs rounded-lg mr-2 mb-2 font-medium"
                     >
                       {skill}
                     </li>
